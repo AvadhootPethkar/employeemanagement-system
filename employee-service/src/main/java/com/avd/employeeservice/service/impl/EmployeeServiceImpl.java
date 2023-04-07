@@ -8,10 +8,10 @@ import com.avd.employeeservice.repository.EmployeeRepository;
 import com.avd.employeeservice.service.APIClient;
 import com.avd.employeeservice.service.EmployeeService;
 import lombok.AllArgsConstructor;
-import org.springframework.http.*;
+import org.springframework.http.HttpEntity;
+import org.springframework.http.HttpHeaders;
+import org.springframework.http.MediaType;
 import org.springframework.stereotype.Service;
-import org.springframework.web.client.RestTemplate;
-import org.springframework.web.reactive.function.client.WebClient;
 
 import java.util.Arrays;
 

@@ -1,0 +1,9 @@
+Follow the order to the services:
+
+service-registry
+config-server
+department-service
+employee-service
+api-gateway
+organization-service
+react-frontend
